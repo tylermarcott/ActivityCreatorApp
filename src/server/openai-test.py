@@ -1,4 +1,9 @@
+
+import file.env
 from openai import OpenAI
+
+print(api_key)
+
 client = OpenAI()
 
 completion = client.chat.completions.create(
